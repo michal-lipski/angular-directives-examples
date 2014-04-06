@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>AngularJS test</title>
+	<script src="jquery.js"></script>
+	<script src="token-input.js"></script>
+	<script data-require="angular.js" data-semver="1.2.1" src="../../lib/angular.js"></script>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="token.css"/>
+	<script src="app.js"></script>
+
+</head>
+
+<body>
+<div id="container" ng-controller="MainCtrl">
+	selected: {{selected}}
+	<div id="input-service" token-input data="values"></div>
+
+</div>
+</body>
+
+</html>
