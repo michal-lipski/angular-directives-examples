@@ -18,10 +18,9 @@
 </head>
 
 <body>
-<div id="container" ng-controller="MainCtrl">
-
-	<hello></hello>
-
+<div id="container" ng-controller="MainCtrl" ng-click="sayHello()">
+<button ng-click="sayHello()">Hello {{name}}</button>
+	
 
 </div>
 <div id="HTMLReporter" class="jasmine_reporter"></div>
